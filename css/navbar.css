@@ -149,7 +149,7 @@ body{
     font-size: 33px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:320px) {
     body {
         display: grid;
         grid-template-columns: 1fr;
