@@ -1,9 +1,31 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
 body{
     min-height: 100vh;
     background-color: #0c192c;
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+    position: sticky;
+    right: 0;
+    float: right;
+    top: 0;
+    z-index: 0;
+}
+
+#container-seccion1{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#container-seccion1 .image img {
+    grid-column-start: 2;
+    height: 275px;
+}
+
+.inicio{
+    background-color: #0c192c;
+    min-height: 100vh;
+    color: var(--texto-claro);
+    font-size: 20px;
+    display: grid;
 }

@@ -14,12 +14,60 @@
     <!--Fin Estilos-->
 </head>
 <body>
+    <!--Nav Menu-->
+    <nav class="navbar">
+        <div id="logo-container" class="navbar__container">
+            <span>
+                <img src="images/logo.png" alt="">
+            </span>
 
-    <header style="color:azure">
-        <div>
-            <img src="images/logo.png" alt="">
+            <div class="nav__text">
+                <h2 class="navbar__title">SysWoker</h2>
+                <h3 class="navbar__subtitle">Web Developer</h3>
+            </div>
         </div>
-    </header>
 
+        <ul class="navbar__list">
+            <li class="navbar__item">
+                <a class="navbar__link" href="#inicio"><i class="separa fas fa-home"></i>Inicio</a>
+            </li>
+            <li class="navbar__item">
+                <a class="navbar__link" href="#portafolio"><i class="separa fab fa-flipboard"></i>Proyectos</a>
+            </li>
+            <li class="navbar__item">
+                <a class="navbar__link" href="#mi-persona"><i class="separa far fa-comment-alt"></i>Habilidades</a>
+            </li>
+            <li class="navbar__item">
+                <a class="navbar__link" href="#contacto"><i class="separa fas fa-id-badge"></i>Contacto</a>
+            </li>
+        </ul>
+
+        <div class="icons">
+            <a class="icons__link" href="https://www.facebook.com/darianmorat" target="_blank">
+              <i class="icons__icons fab fa-facebook-square"></i>
+            </a>
+            <a class="icons__link" href="https://www.instagram.com/darianmorat" target="_blank">
+              <i class="icons__icons fab fa-instagram"></i>
+            </a>
+            <a class="icons__link" href="https://github.com/darianmorat" target="_blank">
+              <i class="icons__icons fab fa-github"></i>
+            </a>      
+            <a class="icons__link" href="https://www.linkedin.com/in/darianmorat" target="_blank">
+              <i class="icons__icons fab fa-linkedin"></i>
+            </a>
+        </div>
+
+        <div class="puntos">
+            <h1 id="reloj">
+                <span id="horas"></span>
+                <span id="minutos"></span>
+            </h1>
+        </div>
+    </nav>
+    <!--Fin Nav Menu-->
+
+    <!--Contenido Principal-->
+
+    <script src="js/reloj.js"></script>
 </body>
 </html>
